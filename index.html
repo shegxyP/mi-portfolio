@@ -87,6 +87,25 @@
         .contact-form button:hover {
             background: #005bb5;
         }
+        .contact-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 5px;
+        }
+        .contact-buttons .whatsapp {
+            background: #25D366;
+            color: white;
+        }
+        .contact-buttons .email {
+            background: #0078d7;
+            color: white;
+        }
+        .contact-buttons a:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
@@ -161,9 +180,20 @@
             <textarea placeholder="Your Message" rows="5" required></textarea>
             <button type="submit">Send Message</button>
         </form>
+        <div class="contact-buttons">
+            <!-- WhatsApp Contact Button -->
+            <a href="https://wa.me/2349061566008" target="_blank" class="whatsapp">
+                Contact Me on WhatsApp
+            </a>
+            <!-- Email Contact Button -->
+            <a href="mailto:segunisrael165@gmail.com" target="_blank" class="email">
+                Contact Me via Email
+            </a>
+        </div>
     </section>
     <footer>
         <p>© 2025 Israel Segun | All Rights Reserved</p>
     </footer>
 </body>
 </html>
+
